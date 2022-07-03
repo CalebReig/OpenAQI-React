@@ -1,0 +1,19 @@
+.line {
+    position: relative; 
+    height:20vh; 
+    width:40vw
+}
+
+
+/* Responsive layout */
+@media (max-width: 800px) {
+
+    .line {
+        transform: rotate(90deg);
+        position: relative; 
+        height:40vh; 
+        width:10vw
+    }
+
+
+}

@@ -1,0 +1,35 @@
+{
+  "short_name": "OpenAQI",
+  "name": "OpenAQI",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "src/images/OpenAQI_Logo.png",
+      "type": "image/png",
+      "sizes": "1025x240"
+    },
+    {
+      "src": "src/images/api.png",
+      "type": "image/png",
+      "sizes": "1099x1099"
+    },
+    {
+      "src": "src/images/forecasts.png",
+      "type": "image/png",
+      "sizes": "2000x2000"
+    },
+    {
+      "src": "src/images/historic-data.png",
+      "type": "image/png",
+      "sizes": "1200x1200"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0dcaf0",
+  "background_color": "#343a40"
+}

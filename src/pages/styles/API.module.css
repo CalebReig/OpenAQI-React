@@ -1,0 +1,58 @@
+.api {
+    margin: 0rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.newUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+hr {
+    border: 0;
+    height: 5px;
+    width: 80%;
+    background-image: linear-gradient(to right, rgba(13, 202, 240, 0), rgba(13, 202, 240, 0.75), rgba(13, 202, 240, 0));
+
+}
+
+code{
+    text-align: center;
+    color: grey;
+    font-size: 1rem;
+}
+
+a {
+    color:#0dcaf0;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+
+@media (max-width: 800px) {
+    .api {
+        margin: 0rem 1rem;
+    }
+}

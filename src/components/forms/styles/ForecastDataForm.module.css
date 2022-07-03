@@ -1,0 +1,94 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.control input,
+.control label {
+  margin: 0.25rem;
+
+}
+
+.control label {
+  text-align: center;
+
+  font-weight: bold;
+  color: #f8f0e3;
+  justify-content: center;
+
+}
+
+.control input {
+  height: 2rem;
+  border-radius: 4px;
+  border: 1px solid #0dcaf0;
+
+}
+
+.longitude {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #0dcaf0;
+  color: #f8f0e3;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #0dcaf0;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #00FF00;
+  border-color: #00FF00;
+  color: #212529;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}

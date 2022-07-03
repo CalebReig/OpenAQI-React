@@ -1,0 +1,85 @@
+.forecasts {
+    margin: 0rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plotArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.lineplot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 60%;
+
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+    width: 35%;
+
+}
+
+.radarplot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.bottom {
+    margin-bottom: 5rem;
+}
+
+h2 {
+    text-align: center;
+    color: #0dcaf0;
+}
+
+
+/* Responsive layout */
+@media (max-width: 800px) {
+    .forecasts {
+        margin: 0rem 1rem;
+    }
+
+    .plotArea {
+        flex-direction: column-reverse;
+    }
+
+    .lineplot {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 5rem;
+    
+    }
+
+    .map {
+        width: 100%;
+    }
+    .radarplot {
+        width: 100%;
+
+    }
+}
